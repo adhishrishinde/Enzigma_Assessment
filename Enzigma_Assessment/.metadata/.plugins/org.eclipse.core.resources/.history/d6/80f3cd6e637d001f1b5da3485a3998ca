@@ -1,0 +1,14 @@
+import java.time.LocalDate;
+
+public class TaskDTO {
+
+    private Long id;
+    private String assignedTo;
+    private String status;
+    private LocalDate dueDate; // LocalDate for dueDate
+    private String priority;
+    private String comments;
+
+    // Getters and setters...
+}
+
